@@ -13,12 +13,18 @@ public class SeleniumHW1AdditionalTest extends AdditionalTaskAbstractTest {
 
 
     @Test
-    void dragAndDrop() throws InterruptedException {
+    void dragAndDrop() {
         screenshot("AdditionalTaskBeforeTest");
         switchTo().frame($x("//iframe[@class='demo-frame lazyloaded']"));
-//        $x("//*[@id='gallery']/li[4]/a[2]").shouldBe(visible).click();
-        $x("//*[@alt='On top of Kozi kopka']").shouldBe(visible)
-                .dragAndDrop(to("#trash > h4"));
+        actions()
+                .clickAndHold($x("//*[@id='gallery']/li[4]/img").shouldBe(visible))
+                .moveToElement($x("//div[@id='trash']"))
+                .release()
+                .build()
+                .perform();
+//        SelenideElement trash = $x("//div[@id='trash']");
+//        $x("//*[@id='gallery']/li[4]/img").shouldBe(visible)
+//                .dragAndDrop(to(trash));
         screenshot("AdditionalTaskAfterTest");
         int amountPicturesInGallery = $$x(
                         "//ul[@id='gallery']//li[@class='ui-widget-content ui-corner-tr ui-draggable ui-draggable-handle']")
