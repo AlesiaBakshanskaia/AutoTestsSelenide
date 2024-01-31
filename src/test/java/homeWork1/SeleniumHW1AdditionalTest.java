@@ -25,11 +25,11 @@ public class SeleniumHW1AdditionalTest extends AdditionalTaskAbstractTest {
 //        SelenideElement trash = $x("//div[@id='trash']");
 //        $x("//*[@id='gallery']/li[4]/img").shouldBe(visible)
 //                .dragAndDrop(to(trash));
-        screenshot("AdditionalTaskAfterTest");
         int amountPicturesInGallery = $$x(
                         "//ul[@id='gallery']//li[@class='ui-widget-content ui-corner-tr ui-draggable ui-draggable-handle']")
                 .shouldHave(size(3))
                 .size();
+        screenshot("AdditionalTaskAfterTest");
         Assertions.assertEquals(3, amountPicturesInGallery);
     }
 }

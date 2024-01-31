@@ -54,7 +54,7 @@
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.java in AutoTestUI">
+  <component name="RunManager" selected="JUnit.SeleniumHW1AdditionalTest.dragAndDrop">
     <configuration name="ProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
       <extension name="coverage">
@@ -126,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.java in AutoTestUI" />
         <item itemvalue="JUnit.SeleniumHW1AdditionalTest.dragAndDrop" />
+        <item itemvalue="JUnit.java in AutoTestUI" />
         <item itemvalue="JUnit.SeleniumHW1AdditionalTest" />
         <item itemvalue="JUnit.ProfileTest" />
         <item itemvalue="JUnit.SeleniumHW1Test" />
