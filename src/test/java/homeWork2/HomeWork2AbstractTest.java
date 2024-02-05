@@ -20,13 +20,12 @@ import static com.codeborne.selenide.Selenide.open;
 public class HomeWork2AbstractTest {
       @BeforeEach
     void init() {
-          Configuration.remote = "http://localhost:4444/wd/hub";
+//          Configuration.remote = "http://localhost:4444/wd/hub";
 //          Configuration.browser = "chrome";
-//          Configuration.browserVersion = "105";
-          Map<String, Object> options = new HashMap<>();
-          options.put("enableVNC", true);
-          options.put("enableLog", true);
-          Configuration.browserCapabilities.setCapability("selenoid:options", options);
+//          Map<String, Object> options = new HashMap<>();
+//          options.put("enableVNC", true);
+//          options.put("enableLog", true);
+//          Configuration.browserCapabilities.setCapability("selenoid:options", options);
 
           open("https://test-stand.gb.ru/login");
     }

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b133bfa1-df1c-48e4-ab69-41c4a52e812c" name="Changes" comment="HW3/2">
+    <list default="true" id="b133bfa1-df1c-48e4-ab69-41c4a52e812c" name="Changes" comment="HW3/4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeWork2/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeWork2/HomeWork2AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork2/HomeWork2AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeWork2/ProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork2/ProfileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProfileTest.testAddPictureInProfile">
+  <component name="RunManager" selected="JUnit.ProfileTest.testChangeBirthdateInProfile">
     <configuration name="DummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
       <extension name="coverage">
@@ -102,6 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProfileTest.testChangeBirthdateInProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.ProfileTest" />
+      <option name="METHOD_NAME" value="testChangeBirthdateInProfile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProfileTest.testFullNameInProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
       <extension name="coverage">
@@ -118,29 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumHW1AdditionalTest.dragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTestUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWork1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homeWork1" />
-      <option name="MAIN_CLASS_NAME" value="homeWork1.SeleniumHW1AdditionalTest" />
-      <option name="METHOD_NAME" value="dragAndDrop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProfileTest.testChangeBirthdateInProfile" />
         <item itemvalue="JUnit.ProfileTest.testAddPictureInProfile" />
         <item itemvalue="JUnit.ProfileTest.testFullNameInProfile" />
         <item itemvalue="JUnit.DummyTest.testEditingDummyById" />
         <item itemvalue="JUnit.DummyTest" />
-        <item itemvalue="JUnit.SeleniumHW1AdditionalTest.dragAndDrop" />
       </list>
     </recent_temporary>
   </component>
@@ -167,12 +170,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706730481506</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW3/4">
+      <created>1707147106299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707147106299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW3" />
     <MESSAGE value="HW3/2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW3/2" />
+    <MESSAGE value="HW3/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3/4" />
   </component>
 </project>

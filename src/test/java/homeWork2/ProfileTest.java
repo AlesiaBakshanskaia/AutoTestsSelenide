@@ -36,4 +36,20 @@ public class ProfileTest extends HomeWork2AbstractTest {
         System.out.println(profilePage.getFileName());
         Selenide.sleep(10000L);
     }
+
+    @Test
+    void testChangeBirthdateInProfile() {
+        LoginPage loginPage = page(LoginPage.class);
+        loginPage.authorize("GB202306611b511", "2ee4e216d5");
+
+        StudentPage studentPage = page(StudentPage.class);
+        studentPage.openProfilePage();
+
+        ProfilePage profilePage = page(ProfilePage.class);
+        profilePage.clickEditProfile();
+        profilePage.changeBirthdate("12.02.1964");
+
+        Assertions.assertEquals("12.02.1964", profilePage.getBirthdate());
+        Selenide.sleep(4000L);
+    }
 }

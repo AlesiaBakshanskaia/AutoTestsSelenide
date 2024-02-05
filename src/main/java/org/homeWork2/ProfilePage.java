@@ -10,9 +10,12 @@ import static com.codeborne.selenide.Selenide.$x;
 public class ProfilePage {
     private final SelenideElement fullNameRow = $x("//div[@class='profile-info svelte-vyyzan']/div[1]/div[2]");
     private final SelenideElement fullNameUnderCard = $x("//div[@class='mdc-card']/div[2]/h2");
+    private final SelenideElement birthdate = $x("//div[@class='profile-info svelte-vyyzan']/div[2]/div[2]");
     private final SelenideElement editProfile = $x("//button[@title='More options']");
     private final SelenideElement newAvatarImageInput = $x("//input[@type='file']");
     private final SelenideElement saveProfileUpdateData = $x("//button[@type='submit']");
+    private final SelenideElement birthdateField = $x("//input[@type='date']");
+    private final SelenideElement closeButton = $x("//button[@data-mdc-dialog-action='close']");
 
     public String getTextFullNameRow() {
         return fullNameRow.shouldBe(visible).text();
@@ -33,8 +36,17 @@ public class ProfilePage {
     public String getFileName() {
         return newAvatarImageInput.getValue();
     }
+    public String getBirthdate() {
+        return birthdate.text();
+    }
 
     public void clickSaveProfileUpdateData() {
         saveProfileUpdateData.shouldBe(visible).click();
+
+    }
+    public void changeBirthdate(String birthdate){
+        birthdateField.shouldBe(visible).setValue(birthdate);
+        clickSaveProfileUpdateData();
+        closeButton.shouldBe(visible).click();
     }
 }
