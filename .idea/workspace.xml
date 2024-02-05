@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b133bfa1-df1c-48e4-ab69-41c4a52e812c" name="Changes" comment="HW3/4">
+    <list default="true" id="b133bfa1-df1c-48e4-ab69-41c4a52e812c" name="Changes" comment="HW4AddedTestChangeBirthdate">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeWork2/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeWork2/StudentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/StudentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeWork1/AdditionalTaskAbstractTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeWork1/SeleniumHW1AdditionalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeWork1/SeleniumHW1Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homeWork2/HomeWork2AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork2/HomeWork2AbstractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homeWork2/ProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork2/ProfileTest.java" afterDir="false" />
     </list>
@@ -51,45 +56,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\main\resources" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsSelenide\src\test\resources" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\test" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\test\java" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProfileTest.testChangeBirthdateInProfile">
-    <configuration name="DummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProfileTest">
+    <configuration name="All in AutoTestUI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWork2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homeWork2" />
-      <option name="MAIN_CLASS_NAME" value="homeWork2.DummyTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DummyTest.testEditingDummyById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTestUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWork2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homeWork2" />
-      <option name="MAIN_CLASS_NAME" value="homeWork2.DummyTest" />
-      <option name="METHOD_NAME" value="testEditingDummyById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProfileTest.testAddPictureInProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +82,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="homeWork2" />
       <option name="MAIN_CLASS_NAME" value="homeWork2.ProfileTest" />
-      <option name="METHOD_NAME" value="testAddPictureInProfile" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,13 +119,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in AutoTestUI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestUI" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProfileTest.testChangeBirthdateInProfile" />
-        <item itemvalue="JUnit.ProfileTest.testAddPictureInProfile" />
+        <item itemvalue="JUnit.ProfileTest" />
+        <item itemvalue="JUnit.All in AutoTestUI" />
         <item itemvalue="JUnit.ProfileTest.testFullNameInProfile" />
-        <item itemvalue="JUnit.DummyTest.testEditingDummyById" />
-        <item itemvalue="JUnit.DummyTest" />
+        <item itemvalue="JUnit.java in AutoTestUI" />
+        <item itemvalue="JUnit.ProfileTest.testChangeBirthdateInProfile" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707147106299</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW4AddedTestChangeBirthdate">
+      <created>1707149495136</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707149495136</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW3" />
     <MESSAGE value="HW3/2" />
     <MESSAGE value="HW3/4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW3/4" />
+    <MESSAGE value="HW4AddedTestChangeBirthdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW4AddedTestChangeBirthdate" />
   </component>
 </project>

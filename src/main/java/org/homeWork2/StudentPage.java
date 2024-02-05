@@ -1,6 +1,7 @@
 package org.homeWork2;
 
 import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
 import java.util.ArrayList;
@@ -41,6 +42,7 @@ public class StudentPage {
     }
 
     public void openProfilePage() {
+        Selenide.sleep(4000L);
         userButton.shouldBe(visible).click();
         profileButton.shouldBe(visible).click();
     }

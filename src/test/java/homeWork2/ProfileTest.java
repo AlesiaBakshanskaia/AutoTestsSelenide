@@ -1,6 +1,5 @@
 package homeWork2;
 
-import com.codeborne.selenide.Selenide;
 import org.homeWork2.LoginPage;
 import org.homeWork2.ProfilePage;
 import org.homeWork2.StudentPage;
@@ -34,7 +33,6 @@ public class ProfileTest extends HomeWork2AbstractTest {
         profilePage.uploadNewAvatarImage("src/test/resources/111.jpg");
 //        profilePage.clickSaveProfileUpdateData();
         System.out.println(profilePage.getFileName());
-        Selenide.sleep(10000L);
     }
 
     @Test
@@ -50,6 +48,6 @@ public class ProfileTest extends HomeWork2AbstractTest {
         profilePage.changeBirthdate("12.02.1964");
 
         Assertions.assertEquals("12.02.1964", profilePage.getBirthdate());
-        Selenide.sleep(4000L);
+
     }
 }
