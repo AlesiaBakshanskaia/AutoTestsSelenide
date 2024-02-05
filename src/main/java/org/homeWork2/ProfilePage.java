@@ -1,8 +1,10 @@
 package org.homeWork2;
 
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
 import java.io.File;
+import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$x;
@@ -37,7 +39,7 @@ public class ProfilePage {
         return newAvatarImageInput.getValue();
     }
     public String getBirthdate() {
-        return birthdate.text();
+        return birthdate.shouldBe(visible).text();
     }
 
     public void clickSaveProfileUpdateData() {
@@ -45,6 +47,7 @@ public class ProfilePage {
 
     }
     public void changeBirthdate(String birthdate){
+        Selenide.sleep(3000L);
         birthdateField.shouldBe(visible).setValue(birthdate);
         clickSaveProfileUpdateData();
         closeButton.shouldBe(visible).click();

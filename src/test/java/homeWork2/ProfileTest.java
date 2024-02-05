@@ -1,5 +1,6 @@
 package homeWork2;
 
+import com.codeborne.selenide.Selenide;
 import org.homeWork2.LoginPage;
 import org.homeWork2.ProfilePage;
 import org.homeWork2.StudentPage;
@@ -7,6 +8,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.page;
+import static com.codeborne.selenide.Selenide.sleep;
 
 public class ProfileTest extends HomeWork2AbstractTest {
     @Test
@@ -21,6 +23,7 @@ public class ProfileTest extends HomeWork2AbstractTest {
         Assertions.assertEquals("GB202306 611b511", profilePage.getTextFullNameRow());
         Assertions.assertEquals("GB202306 611b511", profilePage.getTextFullNameUnderCard());
     }
+
     @Test
     void testAddPictureInProfile() {
         LoginPage loginPage = page(LoginPage.class);
@@ -31,8 +34,8 @@ public class ProfileTest extends HomeWork2AbstractTest {
         ProfilePage profilePage = page(ProfilePage.class);
         profilePage.clickEditProfile();
         profilePage.uploadNewAvatarImage("src/test/resources/111.jpg");
-//        profilePage.clickSaveProfileUpdateData();
-        System.out.println(profilePage.getFileName());
+        Assertions.assertTrue(profilePage.getFileName().contains("111.jpg"));
+
     }
 
     @Test
@@ -45,9 +48,8 @@ public class ProfileTest extends HomeWork2AbstractTest {
 
         ProfilePage profilePage = page(ProfilePage.class);
         profilePage.clickEditProfile();
-        profilePage.changeBirthdate("12.02.1964");
-
-        Assertions.assertEquals("12.02.1964", profilePage.getBirthdate());
+        profilePage.changeBirthdate("01.01.1992");
+        Assertions.assertEquals("01.01.1992", profilePage.getBirthdate());
 
     }
 }

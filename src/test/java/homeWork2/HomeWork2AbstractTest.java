@@ -22,12 +22,12 @@ public class HomeWork2AbstractTest {
     @BeforeEach
     void init() {
 
-//          Configuration.remote = "http://localhost:4444/wd/hub";
-//          Configuration.browser = "chrome";
-//          Map<String, Object> options = new HashMap<>();
-//          options.put("enableVNC", true);
-//          options.put("enableLog", true);
-//          Configuration.browserCapabilities.setCapability("selenoid:options", options);
+        Configuration.remote = "http://localhost:4444/wd/hub";
+        Configuration.browser = "chrome";
+        Map<String, Object> options = new HashMap<>();
+        options.put("enableVNC", true);
+        options.put("enableLog", true);
+        Configuration.browserCapabilities.setCapability("selenoid:options", options);
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         open("https://test-stand.gb.ru/login");
     }

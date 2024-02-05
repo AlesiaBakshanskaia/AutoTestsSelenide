@@ -2,6 +2,7 @@ package homeWork2;
 
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import org.homeWork2.CredentialsModalWindowPage;
 import org.homeWork2.EditingDummyPage;
 import org.homeWork2.LoginPage;
@@ -23,6 +24,7 @@ public class DummyTest extends HomeWork2AbstractTest {
         EditingDummyPage editingDummyPage = page(EditingDummyPage.class);
         final String testName = String.valueOf(System.currentTimeMillis());//для получения уникальных имен Dummy
         editingDummyPage.editDummyName(testName, "Тест");
+        Selenide.sleep(3000L);
         $x("//table[@aria-label='Dummies list']").shouldHave(Condition.text(testName));
         Assertions.assertEquals("Тест " + testName, studentPage.getNameDummyById("18621"));
     }
