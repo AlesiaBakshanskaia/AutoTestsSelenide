@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b133bfa1-df1c-48e4-ab69-41c4a52e812c" name="Changes" comment="HW3/4">
+    <list default="true" id="b133bfa1-df1c-48e4-ab69-41c4a52e812c" name="Changes" comment="HW3/2">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/111.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeWork2/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeWork2/HomeWork2AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork2/HomeWork2AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homeWork2/ProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork2/ProfileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,42 +24,74 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2biTYIkr3OLxAH3nIZldsc5wzdx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Владислав/IdeaProjects/AutoTestUI&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Владислав/IdeaProjects/AutoTestsSelenide/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsSelenide\src\test\resources" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\test" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\test\java" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUISelenide\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumHW1AdditionalTest.dragAndDrop">
-    <configuration name="ProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProfileTest.testAddPictureInProfile">
+    <configuration name="DummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.DummyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DummyTest.testEditingDummyById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.DummyTest" />
+      <option name="METHOD_NAME" value="testEditingDummyById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileTest.testAddPictureInProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
       <extension name="coverage">
         <pattern>
@@ -64,22 +101,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="homeWork2" />
       <option name="MAIN_CLASS_NAME" value="homeWork2.ProfileTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testAddPictureInProfile" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumHW1AdditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileTest.testFullNameInProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWork1.*" />
+          <option name="PATTERN" value="homeWork2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homeWork1" />
-      <option name="MAIN_CLASS_NAME" value="homeWork1.SeleniumHW1AdditionalTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.ProfileTest" />
+      <option name="METHOD_NAME" value="testFullNameInProfile" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,36 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumHW1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTestUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWork1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homeWork1" />
-      <option name="MAIN_CLASS_NAME" value="homeWork1.SeleniumHW1Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="java in AutoTestUI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTestUI" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProfileTest.testAddPictureInProfile" />
+        <item itemvalue="JUnit.ProfileTest.testFullNameInProfile" />
+        <item itemvalue="JUnit.DummyTest.testEditingDummyById" />
+        <item itemvalue="JUnit.DummyTest" />
         <item itemvalue="JUnit.SeleniumHW1AdditionalTest.dragAndDrop" />
-        <item itemvalue="JUnit.java in AutoTestUI" />
-        <item itemvalue="JUnit.SeleniumHW1AdditionalTest" />
-        <item itemvalue="JUnit.ProfileTest" />
-        <item itemvalue="JUnit.SeleniumHW1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -156,28 +172,12 @@
       <option name="project" value="LOCAL" />
       <updated>1706730481506</updated>
     </task>
-    <task id="LOCAL-00003" summary="HW3/3">
-      <created>1706733058832</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1706733058832</updated>
-    </task>
-    <task id="LOCAL-00004" summary="HW3/4">
-      <created>1706733150692</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1706733150692</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW3" />
     <MESSAGE value="HW3/2" />
-    <MESSAGE value="HW3/3" />
-    <MESSAGE value="HW3/4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW3/4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3/2" />
   </component>
 </project>
