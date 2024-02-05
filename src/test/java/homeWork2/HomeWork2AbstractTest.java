@@ -1,5 +1,6 @@
 package homeWork2;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -11,12 +12,22 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.open;
 
 public class HomeWork2AbstractTest {
       @BeforeEach
     void init() {
+          Configuration.remote = "http://localhost:4444/wd/hub";
+//          Configuration.browser = "chrome";
+//          Configuration.browserVersion = "105";
+          Map<String, Object> options = new HashMap<>();
+          options.put("enableVNC", true);
+          options.put("enableLog", true);
+          Configuration.browserCapabilities.setCapability("selenoid:options", options);
+
           open("https://test-stand.gb.ru/login");
     }
 
